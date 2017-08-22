@@ -38,13 +38,13 @@ npm install -D vue-eslint-parser eslint-plugin-html eslint-plugin-vue babel-esli
 eslint --init
 
 # copy setting file to .eslintrc.json
-copy and paste
+copy and paste(請參考.eslintrc.json)
 
 # install ESLint plugin for VSCode
-擴充功能 安裝ESLint plugin
+[VSCode] 安裝 擴充功能 ESLint
 
 # setting VSCode
-檔案->喜好設定->設定->右上角 工作區設定->貼上設定
+[VSCode] 檔案->喜好設定->設定->右上角 工作區設定->貼上設定
 {
     "eslint.enable": true,
     "eslint.nodePath": null,
@@ -54,7 +54,6 @@ copy and paste
     ],
     "eslint.options": { 
       "configFile": "../.eslintrc.json"
-      // "configFile": "C:\/Users\/leo\/AppData\/Roaming\/npm\/node_modules\/eslint\/.eslintrc.json",
     },
     "eslint.trace.server": "off",
     "eslint.run": "onSave",
