@@ -45,5 +45,26 @@ copy and paste
 
 # setting VSCode
 檔案->喜好設定->設定->右上角 工作區設定->貼上設定
+{
+    "eslint.enable": true,
+    "eslint.nodePath": null,
+    "eslint._legacyModuleResolve": false,
+    "eslint.workingDirectories": [
+      "./src"
+    ],
+    "eslint.options": { 
+      "configFile": "../.eslintrc.json"
+      // "configFile": "C:\/Users\/leo\/AppData\/Roaming\/npm\/node_modules\/eslint\/.eslintrc.json",
+    },
+    "eslint.trace.server": "off",
+    "eslint.run": "onSave",
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      { "language": "html", "autoFix": true },
+      { "language": "vue", "autoFix": true }
+    ]
+}
 
 ```
