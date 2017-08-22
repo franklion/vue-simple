@@ -32,7 +32,7 @@ use nvm to install lastest version
 npm update
 
 # install dependencies
-npm install -D vue-eslint-parser eslint-plugin-html eslint-plugin-vue babel-eslint
+npm install -D vue-eslint-parser eslint-plugin-html eslint-plugin-vue babel-eslint eslint
 
 # init eslint
 eslint --init

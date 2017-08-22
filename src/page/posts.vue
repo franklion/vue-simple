@@ -10,35 +10,36 @@
 
 
 <script>
-  import PostItem from '@/components/PostItem.vue'
+
+import PostItem from '@/components/PostItem.vue'
 
 export default {
-    components: {
-      PostItem,
-    },
-  }
+  components: {
+    PostItem,
+  },
+}
 
 </script>
 
 <style>
-  .header {
-    height: 35vh;
-    line-height: 35vh;
-    text-align: center;
-    background-color: coral;
-  }
+.header {
+  height: 35vh;
+  line-height: 35vh;
+  text-align: center;
+  background-color: coral;
+}
 
-  .main-content {
-    height: 80vh;
-    line-height: 80vh;
-    text-align: center;
-    background-color: cornsilk;
-  }
+.main-content {
+  height: 80vh;
+  line-height: 80vh;
+  text-align: center;
+  background-color: cornsilk;
+}
 
-  .footer {
-    height: 35vh;
-    line-height: 35vh;
-    text-align: center;
-    background-color: lightcoral;
-  }
+.footer {
+  height: 35vh;
+  line-height: 35vh;
+  text-align: center;
+  background-color: lightcoral;
+}
 </style>

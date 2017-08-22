@@ -37,6 +37,8 @@
         "no-unexpected-multiline": 2,
         "no-multi-spaces": 2,
         "no-extend-native": 0,
-        "import/no-unresolved": 0
+        "import/no-unresolved": 0,
+        "no-undef": 0,
+        "import/extensions": 0
     }
 }
