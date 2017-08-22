@@ -17,7 +17,7 @@
           <td>{{ bike.ar }}</td>
           <td>{{ bike.sarea }}</td>
           <td>{{ bike.sna }}</td>
-          <td>{{ bike.tot }}</td>
+          <td>{{ bike.sbi }}</td>
         </tr>
       </tbody>
 
