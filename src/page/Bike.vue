@@ -37,9 +37,9 @@ export default {
   },
   mounted() {
     axios.get('/data/youbike').then((response) => {
-      console.log(response.data)
+      // console.log(response.data)
       this.bikes = response.data.retVal
-      console.log(this.bikes)
+      // console.log(this.bikes)
     })
   },
 }

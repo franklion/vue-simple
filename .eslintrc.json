@@ -39,6 +39,7 @@
         "no-extend-native": 0,
         "import/no-unresolved": 0,
         "no-undef": 0,
-        "import/extensions": 0
+        "import/extensions": 0,
+        "no-new": 0
     }
 }
